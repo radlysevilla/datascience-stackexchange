@@ -1,7 +1,7 @@
 # datascience-stackexchange
 This repository is mainly for data analysis and data engineering of the data corresponding to the data dump of datascience.stackexchange.com.
 
-Initially, data converted into CSV (from XML) were provided by a recruiter. However, the .7z file was corrupted. Three CSVs were corrupted thus, needing to obtain the raw file from https://archive.org/details/stackexchange. Inside the compressed file that can be downloaded here: https://archive.org/download/stackexchange/datascience.stackexchange.com.7z, 8 XML files can be found. Since there are already converted CSVs given that needs no conversion, only the 3 corrupted files were converted. Note: the decompressed file (datascience.stackexchange.com - folder) was already uploaded here.
+Initially, data converted into CSV (from XML) were provided by a recruiter. However, the .7z file was corrupted. Three CSVs were corrupted thus, needing to obtain the raw file from https://archive.org/details/stackexchange. Inside the compressed file that can be downloaded here: https://archive.org/download/stackexchange/datascience.stackexchange.com.7z, 8 XML files can be found. Since there are already converted CSVs given that needs no conversion, only the 3 corrupted files were converted. Note: the decompressed file (datascience.stackexchange.com - zip) was already uploaded here, please extract it first when you will be running the code.
 
 All codes were run using Jupyter Notebook. The following are the packages used.
 * matplotlib.pyplot
