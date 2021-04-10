@@ -16,7 +16,7 @@ All codes were run using Jupyter Notebook. The following are the packages used.
 
 <h3>Explanation and steps:</h3>
 
-1. Convert the three corrupted files (Tags, Users, and Votes) into CSVs by running 'xml-to-csv-to-db.ipynb'. This notebook also allows to store all the CSV files into one database (datascience-stackexchange.db).  For the other notebooks, you may run it as is.
+1. Convert the three corrupted files (Tags, Users, and Votes) into CSVs by running 'xml-to-csv-to-db.ipynb'. This notebook also allows to store all the CSV files into one database (datascience-stackexchange.db). For this, a csv folder is needed first that contains all the processed CSV files.  For the other notebooks, you may run it as is.
 2. Profiles:
   Three notebooks were inside the folder profiles. This notebooks shows data visualization that describes the top users who posts and comments based on the occurences of their posts/comments. 
     * First is the the top locations ('top-location-by-number-of-posts.ipynb'), this shows that the top 5 countries who are active - meaning commenting and postings occurences were the highest are: India, United States, Canada, Australia, and United Kingdom. ![top-location-by-number-of-posts-top-100](https://github.com/radlysevilla/datascience-stackexchange/blob/main/plots/top-location-by-number-of-posts-top-100.png)
