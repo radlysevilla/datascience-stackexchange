@@ -8,7 +8,7 @@ All codes were run using Jupyter Notebook. The following are the packages used.
 * pandas
 * os
 * datetime
-* numpy as np
+* numpy
 * matplotlib
 * sqlite3
 * csv
