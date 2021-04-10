@@ -14,7 +14,7 @@ All codes were run using Jupyter Notebook. The following are the packages used.
 * csv
 * glob
 
-<h3>Steps to follow:</h3>
+<h3>Explanation and steps:</h3>
 
 1. Convert the three corrupted files (Tags, Users, and Votes) into CSVs by running 'xml-to-csv-to-db.ipynb'. This notebook also allows to store all the CSV files into one database (datascience-stackexchange.db). 
 2. Profiles:
